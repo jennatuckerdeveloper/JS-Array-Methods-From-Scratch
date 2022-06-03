@@ -1,0 +1,14 @@
+{
+	"dependencies": {
+		"jest": "^28.1.0",
+		"jest-expect-message": "^1.0.2"
+	},
+	"jest": {
+		"setupFilesAfterEnv": [
+			"jest-expect-message"
+		]
+	},
+	"scripts": {
+		"test": "jest --watch"
+	}
+}
